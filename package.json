@@ -26,7 +26,7 @@
     "tilelive-hsl-parkandride": "opentransportro/tilelive-hsl-parkandride",
     "tilelive-hsl-ticket-sales": "opentransportro/tilelive-hsl-ticket-sales",
     "tilelive-http": "^0.14.0",
-    "tilelive-otp-citybikes": "opentransportro/tilelive-otp-citybikes#3f403de9859415146142f4f0b371ee258332c864",
+    "tilelive-otp-citybikes": "opentransportro/tilelive-otp-citybikes#2981713f340fab55b618159ad24fea9e41b001ed",
     "tilelive-otp-stops": "opentransportro/tilelive-otp-stops",
     "tilelive-vector": "^3.9.3",
     "tilelive-xray": "^0.4.0"
