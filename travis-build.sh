@@ -6,7 +6,7 @@ set -e
 #DOCKER_AUTH
 #FONTSTACK_PASSWORD
 
-ORG=${ORG:-hsldevcom}
+ORG=${ORG:-opentransport}
 DOCKER_TAG=${TRAVIS_BUILD_ID:-latest}
 DOCKER_IMAGE=$ORG/hsl-map-server:${DOCKER_TAG}
 DOCKER_IMAGE_LATEST=$ORG/hsl-map-server:latest

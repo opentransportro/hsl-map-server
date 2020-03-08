@@ -3,7 +3,7 @@ const glyphsUrl = `file://${process.env.WORK}/node_modules/hsl-map-style/`;
 
 module.exports = {
   "/map/v1/hsl-vector-map": {
-    "source": "mbtiles://./finland.mbtiles",
+    "source": "mbtiles://./romania.mbtiles",
     "headers": {
       "Cache-Control": "public,max-age=3600"
     }
