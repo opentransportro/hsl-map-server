@@ -20,7 +20,8 @@ RUN yarn install
 
 COPY . ${WORK}
 
-RUN curl https://s3.amazonaws.com/mapbox/osm-qa-tiles-production/latest.country/romania.mbtiles.gz > romania.mbtiles.gz && gzip -d romania.mbtiles.gz
+RUN curl http://tm.opentransport.ro/tiles.mbtiles > romania.mbtiles
+# RUN curl https://s3.amazonaws.com/mapbox/osm-qa-tiles-production/latest.country/romania.mbtiles.gz > romania.mbtiles.gz && gzip -d romania.mbtiles.gz
 # RUN curl https://hslstoragekarttatuotanto.blob.core.windows.net/tiles/tiles.mbtiles > finland.mbtiles
 EXPOSE 8080
 
