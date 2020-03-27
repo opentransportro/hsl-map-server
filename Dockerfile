@@ -1,11 +1,9 @@
 FROM node:6-stretch
-MAINTAINER Reittiopas version: 0.1
+MAINTAINER OpenTransport version: 0.1
 
 ENV FONTSTACK_PASSWORD ""
-ENV HSL_OTP_URL api.digitransit.fi/routing/v1/routers/hsl/index/graphql
-ENV FINLAND_OTP_URL api.digitransit.fi/routing/v1/routers/finland/index/graphql
-ENV WALTTI_OTP_URL api.digitransit.fi/routing/v1/routers/waltti/index/graphql
-ENV WORK=/opt/hsl-map-server
+ENV ROMANIA_OTP_URL api.opentransport.ro/routing/v1/routers/romania/index/graphql
+ENV WORK=/opt/map-server
 ENV NODE_OPTS ""
 
 RUN apt-get update \
