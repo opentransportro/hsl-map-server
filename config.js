@@ -1,5 +1,5 @@
 const sourcesUrl = "hsl-map-server:8080/map/v1/";
-const glyphsUrl = `file://${process.env.WORK}/node_modules/hsl-map-style/`;
+const glyphsUrl = `file://${process.env.WORK}/node_modules/map-style/`;
 
 module.exports = {
   "/map/v1/hsl-vector-map": {
@@ -12,7 +12,7 @@ module.exports = {
     "source": {
       "protocol": "gl:",
       "query": {},
-      "style": require("hsl-map-style").generateStyle({
+      "style": require("map-style").generateStyle({
         sourcesUrl,
         glyphsUrl
       })
@@ -25,7 +25,7 @@ module.exports = {
     "source": {
       "protocol": "gl:",
       "query": {layerTileSize: 256},
-      "style": require("hsl-map-style").generateStyle({
+      "style": require("map-style").generateStyle({
         sourcesUrl,
         glyphsUrl,
         components: { icons: { enabled: true } }
