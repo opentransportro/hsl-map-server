@@ -1,24 +1,24 @@
 {
-  "name": "hsl-map-server",
+  "name": "map-server",
   "version": "1.0.0",
-  "description": "HSL map server",
+  "description": "Map server",
   "main": "config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opentransportro/hsl-map-server.git"
+    "url": "git+https://github.com/opentransportro/map-server.git"
   },
   "author": "opentransportro",
   "license": "(AGPL-3.0 OR EUPL-1.2)",
   "bugs": {
-    "url": "https://github.com/opentransportro/hsl-map-server/issues"
+    "url": "https://github.com/opentransportro/map-server/issues"
   },
-  "homepage": "https://github.com/opentransportro/hsl-map-server#readme",
+  "homepage": "https://github.com/opentransportro/map-server#readme",
   "dependencies": {
     "forever": "^0.15.2",
-    "map-style": "opentransportro/map-style#ca06df94c57cdc6aaa68696141879847955b76ea",
+    "map-style": "opentransportro/map-style#b64cdd46046e485b2ffbf4f4890f768b1daf6ad4",
     "mbtiles": "hannesj/node-mbtiles#patch-1",
     "tessera": "^0.12.0",
     "tilejson": "^1.0.1",
