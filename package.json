@@ -24,7 +24,7 @@
     "tilejson": "^1.0.1",
     "tilelive-gl": "opentransportro/tilelive-gl#2f61ec0da7e5b13ca547fa5350905f3c2a688813",
     "tilelive-hsl-parkandride": "opentransportro/tilelive-hsl-parkandride",
-    "tilelive-hsl-ticket-sales": "opentransportro/tilelive-hsl-ticket-sales",
+    "tilelive-stpt-ticket-sales": "opentransportro/tilelive-stpt-ticket-sales",
     "tilelive-http": "^0.14.0",
     "tilelive-otp-citybikes": "opentransportro/tilelive-otp-citybikes#2981713f340fab55b618159ad24fea9e41b001ed",
     "tilelive-otp-stops": "opentransportro/tilelive-otp-stops",

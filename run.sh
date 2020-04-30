@@ -19,5 +19,5 @@ node_modules/tessera/bin/tessera.js --port 8080 --config config.js --multiproces
 -r ${WORK}/node_modules/tilelive-otp-stops/ \
 -r ${WORK}/node_modules/tilelive-gl/ \
 -r ${WORK}/node_modules/tilelive-hsl-parkandride \
--r ${WORK}/node_modules/tilelive-hsl-ticket-sales \
+-r ${WORK}/node_modules/tilelive-stpt-ticket-sales \
 && sleep 10 && node_modules/.bin/forever --fifo logs 0
