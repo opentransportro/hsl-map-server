@@ -18,7 +18,7 @@ RUN yarn install
 
 COPY . ${WORK}
 
-RUN curl https://tm.opentransport.ro/tiles.mbtiles > romania.mbtiles
+# RUN curl https://tm.opentransport.ro/tiles.mbtiles > romania.mbtiles
 # RUN curl https://hslstoragekarttatuotanto.blob.core.windows.net/tiles/tiles.mbtiles > finland.mbtiles
 EXPOSE 8080
 
